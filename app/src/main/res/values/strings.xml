@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">medilocker</string>
+    <string-array name="options">
+        <item>Prescription</item>
+        <item>Lab Report</item>
+        <item>Scan</item>
+        <item>Discharge summary</item>
+        <item>Medical Bill</item>
+    </string-array>
+
+</resources>

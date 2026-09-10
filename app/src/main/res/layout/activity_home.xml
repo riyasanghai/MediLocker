@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home"
+    android:orientation="vertical"
+    android:padding="22dp">
+
+    <!-- Heading -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to MediLocker"
+        android:textStyle="bold"
+        android:textSize="29sp"
+        android:textColor="#111111"/>
+
+    <!-- Subtitle -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your medical records, organized in one place."
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:layout_marginTop="6dp"/>
+
+    <!-- Main Action -->
+    <Button
+        android:id="@+id/btnaddrec"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="+ Add New Record"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#233EEC"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="54dp"
+        />
+
+    <!-- Section Heading -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quick Access"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- My Records -->
+    <Button
+        android:id="@+id/btnrecords"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="My Records"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#233EEC"
+        android:backgroundTint="#E8EEFF"/>
+
+    <!-- Assistant -->
+    <Button
+        android:id="@+id/btnassistant"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="Medi Assistant"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#233EEC"
+        android:backgroundTint="#E8EEFF"
+        android:layout_marginTop="12dp"/>
+
+    <!-- Profile -->
+    <Button
+        android:id="@+id/btnprofile"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="Profile"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#233EEC"
+        android:backgroundTint="#E8EEFF"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uploadrecord"
+    android:orientation="vertical"
+    android:padding="22dp">
+
+    <TextView
+        android:id="@+id/btnback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="← Back"
+        android:textSize="18sp"
+        android:textColor="#233EEC"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Record"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="choose file"
+        android:layout_marginTop="23dp"
+        android:padding="12dp"
+        android:backgroundTint="#233EEC"
+        android:textColor="@android:color/white"
+        android:id="@+id/btnchoose"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Record Title"
+        android:layout_marginTop="15dp"
+        android:background="@android:drawable/edit_text"
+        android:padding="12dp"
+        android:id="@+id/title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/options"
+        android:background="@android:drawable/edit_text"
+        android:padding="12dp"
+        android:id="@+id/category"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doctor Name"
+        android:layout_marginTop="15dp"
+        android:background="@android:drawable/edit_text"
+        android:padding="12dp"
+        android:id="@+id/doc"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hospital Name"
+        android:layout_marginTop="15dp"
+        android:background="@android:drawable/edit_text"
+        android:padding="12dp"
+        android:id="@+id/hosp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DD/MM/YYYY"
+        android:layout_marginTop="15dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:background="@android:drawable/edit_text"
+        android:padding="12dp"
+        android:id="@+id/dates"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Condition"
+        android:layout_marginTop="15dp"
+        android:background="@android:drawable/edit_text"
+        android:padding="12dp"
+        android:id="@+id/condition"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Upload Record"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#233EEC"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/btnupload"
+     />
+
+
+</LinearLayout>
+</ScrollView>

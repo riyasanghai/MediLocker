@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "469814325647",
+    "project_id": "medilocker-c8038",
+    "storage_bucket": "medilocker-c8038.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469814325647:android:af82fb0edbff5ed2fd5bfa",
+        "android_client_info": {
+          "package_name": "com.example.medilocker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469814325647-j2dmfs5398q3e3neql6ed1u5plkmg6ad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medilocker",
+            "certificate_hash": "f913146f28c9a8e8443fd2e744086a2d235b8f94"
+          }
+        },
+        {
+          "client_id": "469814325647-t2fi1j9b46736kf97deu4ufcvhfrdhqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf-PCh7ttBaBz1m04OQVfM97v62FVDTPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469814325647-t2fi1j9b46736kf97deu4ufcvhfrdhqf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
